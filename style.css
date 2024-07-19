@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Serif+Display:ital@0;1&family=Dancing+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(157, 156, 156);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    width: 257px;
+    font-style: normal;
+}
+
+.sidebar nav{
+    padding: 15px;
+    height: 100vh;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 35px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar nav li a:hover{
+    text-decoration: none;
+    color: lavender;
+    font-size: 2.1rem;
+}
+
+.main{
+  /*  background-color: rgb(215, 240, 250); */
+    width: 100vw;
+    background-color: rgb(20, 20, 58);
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    background-color: rgb(20, 20, 58); 
+    color: beige;
+    width: 70vw;
+    height: 58vh;
+    margin: 120px auto;
+    display: flex;
+    border-radius: 30px;
+}
+
+.devPic {
+    width: 26vw;
+    margin-left: -1px;
+}
+
+.devInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    width: 998px;
+    height: 62vh;
+    padding-left: 99px;
+    justify-content: center;
+}
+
+.hello{
+    font-size: 65px;
+}
+
+#element{
+    font-size: 55px;
+    font-weight: bold;
+    color: lightskyblue;
+}
+
+.about{
+    font-size: 25px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.buttons{
+    margin-top: 39px;
+    margin-left: -11px;
+}
+
+.btn{
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: black;
+    color: beige;
+    margin: 0px 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 15px;
+    margin: 17px;
+    margin-left: 0px;
+}
+
+.btn:hover{
+    background-color: beige;
+    color: black;
+}
+
+.moreabout{
+    font-size: 19px;
+    margin-top: 13px;
+
+}
+
+.devPic img{
+    height: 58vh;
+}
+
+.contactform{
+    padding-top: 144px;
+    padding-left: 44px;
+}
+
+.contactform h1{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    padding-left: 0;
+}
+
+.contactform form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction:column;
+    font-size: 18px ;
+}
+
+#clientemail{
+    width: 20vw;
+    margin: 4px;
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 15px;
+}
+
+#clientphone{
+    width: 20vw;
+    margin: 4px;
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 15px;  
+}
+
+#emailHelp{
+    padding: 0px 8px;
+    font-size: 12px;
+}
+
+#isclient{
+    align-self: flex-start;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#isclient{
+    width: 15px;
+    margin-top: 5px;
+}
+
+.rights {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    height: 6px;
+    padding-top: 5px;
+    padding-bottom: 14px;
+
+}
+
+.Design{
+    letter-spacing: 2px;
+    opacity: 0.7;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(67, 67, 67);
+}
+
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: beige;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicons a i{
+    font-size: 20px;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialicons a:hover{
+    background-color: rgb(67, 67, 67);
+    transition: 0.5s;
+    color: beige;
+}
+
+.socialicons a :hover i{
+    color: beige;
+    transition: 0.5s ;
+}
+
+.introcontainer{
+    background-color: rgb(14, 14, 41) ;
+    width: 100vw;
+}
+
+.intro{
+    width: 66vw;
+    margin-top: 67px;
+    border-radius: 3%;
+    margin-bottom: 77px;
+    height: 78vh;
+    padding: 35px;
+    background-color: rgb(14, 14, 41);
+    color: beige;
+    border: 4px solid white;
+    letter-spacing: 2px;
+    margin-left: 106px;
+}
+
+.intro:hover{
+    background-color: rgb(26, 59, 79);
+    color: white;
+    transition: 0.2s;
+    border: 6px solid beige;
+}
+
+.intro{
+    text-align: center;
+}
+
+.underline{
+    background-color: gray;
+    width: 490px;
+    height: 2px;
+    margin-left: 240px;
+}
+
+.main2{
+    background-color: rgb(14, 14, 41);
+    color: beige;
+    width: 100vw;
+    padding-top: 57px;
+    padding-left: 84px;
+}
+
+.skills li{
+    letter-spacing: 3px;
+    padding: 5px;
+}
+
+.myskills{
+    background-color: beige;
+    color: black;
+    width: 36vw;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 10px;
+    height: 43vh;
+    margin-left: 220px;
+    display: flex;
+    flex-direction: column;
+}
+
+.myskills h1{
+    text-align: center;
+}
+
+.skillscontainer{
+    padding: 20px;
+}
+
+.skillscontainer :hover{
+    transition: 0.5s;
+    background-color: gray;
+    color: beige;
+}
+
+.skillitem{
+    padding: 9px;
+    display: flex;
+}
+
+.skill{
+    background-color: red;
+    width: 300px;
+    border-radius: 25px;
+    height: 1vh;
+    margin-top: 7px;
+    margin-left: 18px;
+    border: 2px solid black;
+    opacity: 0.9;
+}
+
+.ninty{
+    background-color: blue;
+    width: 190px;
+    border-radius: 25px;
+    height: 1vh;
+    margin-top: 7px;
+    margin-left: 18px;
+    border: 2px solid black;
+    opacity: 0.9;
+}
+
+.sixty{
+    background-color: purple;
+    width: 210px;
+    border-radius: 25px;
+    height: 1vh;
+    margin-top: 7px;
+    margin-left: 18px;
+    border: 2px solid black;
+    opacity: 0.9;
+}
+
+.thirty{
+    background-color: yellow;
+    width: 120px;
+    border-radius: 25px;
+    height: 1vh;
+    margin-top: 7px;
+    margin-left: 18px;
+    border: 2px solid black;
+    opacity: 0.9;
+}
+
+.main3{
+    color: blanchedalmond;
+    background-color: rgb(20, 20, 58);
+    width: 100vw;
+}
+
+.main3 h5{
+    margin-top: 80px;
+    margin-left: 100px;
+    opacity: 0.4;
+    letter-spacing: 2px;
+
+}
+
+.main3 h1{
+    margin-top: 10px;
+    margin-left: 100px;
+    letter-spacing: 2px;
+    
+}
+
+.horizontal{
+    background-color: beige;
+    width: 905px;
+    height: 2px;
+    margin-left: 100px;
+    margin-top: 1px;
+    opacity: 0.4;
+}
+
+.projectcontainer{
+    width: 84vw;
+    height: 80vh;
+    display: flex;
+}
+
+.vertical{
+    background-color: beige;
+    width: 2px;
+    height: 90px;
+    margin-left: 203px;
+    margin-top: 0px;
+}
+
+.images{
+    width: 12vw;
+    display: flex;
+    margin-left: 88px;
+    margin-right: 75px;
+    margin-top: 43px;
+
+}
+
+.images img{
+    width: 100px;
+    height: 100px;
+    margin-left: 164px;
+
+}
+
+.box{
+    display: flex;
+}
+
+.vertical1{
+    background-color: beige;
+    width: 2px;
+    height: 90px;
+    margin-left: 245px;
+    margin-top: 0px;
+}
+
+.vertical2{
+    background-color: beige;
+    width: 2px;
+    height: 90px;
+    margin-left: 258px;
+    margin-top: 0px;
+}
+
+.vertical-title{
+    margin-top: 88px;
+    font-size: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    color: beige;
+}
+
+.vertical-title a{
+    color: beige;
+}
+
+.vertical-title a:hover{
+    color: red;
+}
+
+.vertical-desc{
+    width: 7vw;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.vertical-title1{
+    margin-top: 88px;
+    font-size: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    width: 6vw;
+}
+
+.vertical-title1 a{
+    color: beige;
+}
+
+.vertical-title1 a:hover{
+    color: red;
+}
+
+.vertical-desc1{
+    width: 7vw;
+    margin-top: 20px;
+    letter-spacing: 2px;
+
+}
+
+.vertical-title2{
+    margin-top: 88px;
+    font-size: 10px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.vertical-title2 a{
+    color: beige;
+}
+
+.vertical-title2 a:hover{
+    color: red;
+}
+
+.vertical-desc2{
+    width: 7vw;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
